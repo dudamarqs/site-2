@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Kablammo&family=Kreon:wght@300..700&display=swap');
+
+/*reset básico*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #FDF9DE;
+}
+
+
+p, h2 {
+    font-family: Kreon;
+}
+
+
+header {
+    background-color: #B97028;
+}
+
+
+.nome_site {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    height: 83.338px;
+    justify-content: center;
+}
+
+
+.nome_site h1 {
+    font-family: "Kablammo", system-ui;
+    font-weight: 500;
+    font-size: 35px;
+    color: #FDF9DE;
+}
+
+
