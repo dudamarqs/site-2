@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css2?family=Kablammo&family=Kreon:wght@300..700&display=swap');
+
+/*reset básico*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #FDF9DE;
+    letter-spacing: 1px;
+}
+
+
+p, h2 {
+    font-family: Kreon;
+}
+
+
+header {
+    background-color: #B97028;
+}
+
+
+.nome_site {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    height: 83.338px;
+    justify-content: center;
+}
+
+
+.nome_site h1 {
+    font-family: "Kablammo", system-ui;
+    font-weight: 500;
+    font-size: 35px;
+    color: #FDF9DE;
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center; /* centraliza horizontalmente */
+    gap: 280px;
+    padding: 30px; /* adiciona espaço interno ao redor dos links de navegação */
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    color: #301D12;
+    font-family: Kreon;
+    font-size: 25.43px;
+    font-weight: 600;
+    display: inline-block; /* necessário para que height e line-height funcionem */
+    height: 20px; /* ajusta a altura dos links de navegação */
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+
+.nav_links a:hover {
+    transform: scale(1.3); /* Aumenta o tamanho quando passar o mouse por cima */
+    text-decoration: none;
+    font-weight: 700;
+}
+
+
+.linha_divisora_1 {
+    width: 1700px;
+    border: solid #5A4D39 2px;
+    margin: auto;
+}
+
+
+.hero_titulo {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.hero_titulo h1 {
+    font-size: 50px;
+    font-family: Kreon;
+    text-align: center;
+    color: #301D12;
+}
+
+
+.hero_image {
+    width: 1200px;
+    height: auto;
+    margin: auto;
+}
+
+
+.hero_image img {
+    width: 100%;
+}
+
+
+.hero_content {
+    padding: 30px;
+    width: 1400px;
+    height: 180px;
+    margin: auto;
+}
+
+
+.hero_content p {
+    color: #301D12;
+    text-align: center;
+    font-family: Kreon;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+
+.linha_divisora_2 {
+    width: 1000px;
+    border: solid #5A4D39 2px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin: auto;
+}
+
+
+.introducao {
+    padding: 30px;
+    width: 1400px;
+    height: 180px;
+    margin: auto;
+}
+
+
+.introducao p {
+    color: #301D12;
+    text-align: justify;
+    font-family: Kreon;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+.comidas {
+    color: #301D12;
+}
+
+
+.carne_de_sol {
+    display: flex;
+    margin: auto;
+    padding: 30px;
+    margin-top: 30px;
+    width: 1400px;
+    gap: 200px;
+}
+
+
+.carne_de_sol_textos {
+    width: 700px;
+    text-align: justify;
+}
+
+
+.carne_de_sol_textos h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+
+.carne_de_sol_textos p {
+    font-size: 29px;
+}
+
+
+.carne_de_sol img {
+    width: 500px;
+    height: auto;
+}
+
+
+.acaraje {
+    display: flex;
+    margin: auto;
+    padding: 30px;
+    margin-top: 30px;
+    width: 1400px;
+    gap: 200px;
+}
+
+
+.acaraje_textos {
+    width: 700px;
+    text-align: justify;
+}
+
+
+.acaraje_textos h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+
+.acaraje_textos p {
+    font-size: 29px;
+}
+
+
+.acaraje img {
+    width: 500px;
+    height: auto;
+}
+
+
+.baiao_de_dois {
+    display: flex;
+    margin: auto;
+    padding: 30px;
+    margin-top: 30px;
+    margin-bottom: 80px;
+    width: 1400px;
+    gap: 200px;
+}
+
+
+.baiao_de_dois_textos {
+    width: 700px;
+    text-align: justify;
+}
+
+
+.baiao_de_dois_textos h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+
+.baiao_de_dois_textos p {
+    font-size: 29px;
+}
+
+
+.baiao_de_dois img {
+    width: 500px;
+    height: auto;
+}
+
+
+.moqueca_nordestina {
+    display: flex;
+    margin: auto;
+    padding: 30px;
+    margin-top: 30px;
+    width: 1400px;
+    gap: 200px;
+}
+
+
+.moqueca_nordestina_textos {
+    width: 700px;
+    text-align: justify;
+}
+
+
+.moqueca_nordestina_textos h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+
+.moqueca_nordestina_textos p {
+    font-size: 29px;
+}
+
+
+.moqueca_nordestina img {
+    width: 500px;
+    height: auto;
+}
+
+
+footer {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;     /* Centraliza verticalmente */
+    height: 50px;
+    background-color: #5A4D39;
+
+
+.footer {
+    color: #FDF9DE;
+    font-size: 20px;
+}
