@@ -10,6 +10,7 @@
 
 body {
     background-color: #FDF9DE;
+    letter-spacing: 1px;
 }
 
 
@@ -71,8 +72,7 @@ nav ul li a {
 
 .linha_divisora_1 {
     width: 1700px;
-    border: solid #B97028 3px;
-    margin-top: 20px;
+    border: solid #5A4D39 2px;
     margin: auto;
 }
 
@@ -112,7 +112,7 @@ nav ul li a {
 
 
 .hero_content p {
-    color: #5A4D39;
+    color: #301D12;
     text-align: center;
     font-family: Kreon;
     font-size: 35px;
@@ -122,9 +122,128 @@ nav ul li a {
 
 
 .linha_divisora_2 {
-    width: 1200px;
-    border: solid #B97028 3px;
+    width: 1000px;
+    border: solid #5A4D39 2px;
     margin-top: 20px;
     margin-bottom: 20px;
     margin: auto;
+}
+
+
+.introducao {
+    padding: 30px;
+    width: 1400px;
+    height: 180px;
+    margin: auto;
+}
+
+
+.introducao p {
+    color: #301D12;
+    text-align: justify;
+    font-family: Kreon;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+.eventos {
+    color: #301D12;
+}
+
+
+.carnaval {
+    display: flex;
+    margin: auto;
+    padding: 30px;
+    margin-top: 30px;
+    width: 1400px;
+    gap: 200px;
+}
+
+
+.carnaval_textos {
+    width: 700px;
+    text-align: justify;
+}
+
+
+.carnaval_textos h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+
+.carnaval_textos p {
+    font-size: 29px;
+}
+
+
+.bumba_meu_boi {
+    display: flex;
+    margin: auto;
+    padding: 30px;
+    margin-top: 30px;
+    width: 1400px;
+    gap: 200px;
+}
+
+
+.bumba_meu_boi_textos {
+    width: 700px;
+    text-align: justify;
+}
+
+
+.bumba_meu_boi_textos h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+
+.bumba_meu_boi_textos p {
+    font-size: 29px;
+}
+
+
+.festa_junina {
+    display: flex;
+    margin: auto;
+    padding: 30px;
+    margin-top: 30px;
+    margin-bottom: 80px;
+    width: 1400px;
+    gap: 200px;
+}
+
+
+.festa_junina_textos {
+    width: 700px;
+    text-align: justify;
+}
+
+
+.festa_junina_textos h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+
+.festa_junina_textos p {
+    font-size: 29px;
+}
+
+
+footer {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;     /* Centraliza verticalmente */
+    height: 50px;
+    background-color: #5A4D39;
+
+
+.footer {
+    color: #FDF9DE;
+    font-size: 20px;
 }
