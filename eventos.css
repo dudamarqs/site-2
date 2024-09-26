@@ -41,3 +41,31 @@ header {
 }
 
 
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center; /* centraliza horizontalmente */
+    gap: 280px;
+    padding: 30px; /* adiciona espaço interno ao redor dos links de navegação */
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    color: #301D12;
+    font-family: Kreon;
+    font-size: 25.43px;
+    font-weight: 600;
+    display: inline-block; /* necessário para que height e line-height funcionem */
+    height: 20px; /* ajusta a altura dos links de navegação */
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+
+.nav_links a:hover {
+    transform: scale(1.3); /* Aumenta o tamanho quando passar o mouse por cima */
+    text-decoration: none;
+    font-weight: 700;
+}
+
+
