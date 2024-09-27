@@ -158,9 +158,9 @@ nav ul li a {
     font-family: Kreon;
     font-size: 35px;
     font-style: normal;
-    font-weight: 400;
-    margin-top: 30px;
-    text-align: justify;
+    font-weight: 700;
+    margin-top: 10px;
+    text-align: center;
 }
 
 
@@ -169,6 +169,23 @@ nav ul li a {
     border: solid #B97028 2px;
     margin: auto;
     margin-bottom: 50px;
+}
+
+
+.introducao {
+    width: 1400px;
+    height: 180px;
+    margin: auto;
+}
+
+
+.introducao p {
+    color: #301D12;
+    text-align: justify;
+    font-family: Kreon;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 400;
 }
 
 
