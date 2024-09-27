@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Kablammo&family=Kreon:wght@300..700&display=swap');
+
+/reset básico/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #FDF9DE;
+    letter-spacing: 1px;
+}
+
+
+p, h2 {
+    font-family: Kreon;
+}
+
+
+header {
+    background-color: #B97028;
+}
+
+
+.nome_site {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    height: 83.338px;
+    justify-content: center;
+}
+
+
+.nome_site h1 {
+    font-family: "Kablammo", system-ui;
+    font-weight: 500;
+    font-size: 35px;
+    color: #FDF9DE;
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center; /* centraliza horizontalmente */
+    gap: 280px;
+    padding: 30px; /* adiciona espaço interno ao redor dos links de navegação */
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    color: #301D12;
+    font-family: Kreon;
+    font-size: 25.43px;
+    font-weight: 600;
+    display: inline-block; /* necessário para que height e line-height funcionem */
+    height: 20px; /* ajusta a altura dos links de navegação */
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+
+.nav_links a:hover {
+    transform: scale(1.3); /* Aumenta o tamanho quando passar o mouse por cima */
+    text-decoration: none;
+    font-weight: 700;
+}
+
+
+.linha_divisora_1 {
+    width: 1700px;
+    border: solid #5A4D39 2px;
+    margin: auto;
+}
+
+
+.hero_titulo {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.hero_titulo h1 {
+    font-size: 50px;
+    font-family: Kreon;
+    text-align: center;
+    color: #301D12;
+}
+
+
+.nodestino_day {
+    width: 800px;
+    height: auto;
+    margin: auto;
+}
+
+
+.nodestino_day img {
+    width: 100%;
+    transform: translateY(25px);
+}
+
+
+.hero_content {
+    padding: 30px;
+    width: 1400px;
+    height: 180px;
+    margin: auto;
+}
+
+
+.hero_content p {
+    color: #301D12;
+    text-align: center;
+    font-family: Kreon;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+
+.linha_divisora_2 {
+    width: 1000px;
+    border: solid #5A4D39 2px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin: auto;
+}
+
+
+.introducao {
+    padding: 30px;
+    width: 1400px;
+    height: 180px;
+    margin: auto;
+}
+
+
+.introducao p {
+    color: #301D12;
+    text-align: justify;
+    font-family: Kreon;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+.sobre_o_dia {
+    color: #301D12;
+}
+
+
+.historia {
+    display: flex;
+    margin: auto;
+    padding: 30px;
+    margin-top: 30px;
+    width: 1400px;
+    gap: 200px;
+}
+
+
+.historia_texto {
+    width: 700px;
+    text-align: justify;
+}
+
+
+.historia_texto h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+
+.historia_texto p {
+    font-size: 29px;
+}
+
+
+.lampiao_maria {
+    display: flex;
+    margin: auto;
+    padding: 30px;
+    margin-top: 30px;
+    width: 1400px;
+    gap: 200px;
+}
+
+
+.lampiao_maria_image {
+    margin-top: -50px;
+}
+
+.lampiao_maria_textos {
+    width: 700px;
+    text-align: justify;
+}
+
+
+.lampiao_maria_textos h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+
+.lampiao_maria_textos p {
+    font-size: 29px;
+}
+
+
+.turismo {
+    display: flex;
+    margin: auto;
+    padding: 30px;
+    margin-top: 30px;
+    margin-bottom: 80px;
+    width: 1400px;
+    gap: 200px;
+}
+
+
+.turismo_textos {
+    width: 700px;
+    text-align: justify;
+}
+
+
+.turismo_textos h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+
+.turismo_textos p {
+    font-size: 29px;
+}
+
+.turismo_image {
+    margin-top: -60px;
+}
+
+
+/Saiba também/
+section.saiba_tambem {
+    padding: 40px 4%;
+    display: flex;
+    align-items: center;
+}
+
+.saiba .saiba-box {
+    color: #FCBF83;
+    padding: 40px;
+}
+
+.saiba .saiba-box i{
+    font-size: 58px;
+}
+
+
+
+
+/Rodapé do site/
+footer {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;     /* Centraliza verticalmente */
+    height: 50px;
+    background-color: #5A4D39;
+}
+
+
+.footer {
+    color: #FDF9DE;
+    font-size: 20px;
+}
