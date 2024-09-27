@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Kablammo&family=Kreon:wght@300..700&display=swap');
+
+/*reset básico*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #FDF9DE;
+    letter-spacing: 1px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+}
+
+
+p, h2 {
+    font-family: Kreon;
+}
+
+
+header {
+    background-color: #B97028;
+}
+
+
+.nome_site {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    height: 83.338px;
+    justify-content: center;
+}
+
+
+.nome_site h1 {
+    font-family: "Kablammo", system-ui;
+    font-weight: 500;
+    font-size: 35px;
+    color: #FDF9DE;
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center; /* centraliza horizontalmente */
+    gap: 280px;
+    padding: 30px; /* adiciona espaço interno ao redor dos links de navegação */
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    color: #301D12;
+    font-family: Kreon;
+    font-size: 25.43px;
+    font-weight: 600;
+    display: inline-block; /* necessário para que height e line-height funcionem */
+    height: 20px; /* ajusta a altura dos links de navegação */
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+
+.nav_links a:hover {
+    transform: scale(1.3); /* Aumenta o tamanho quando passar o mouse por cima */
+    text-decoration: none;
+    font-weight: 700;
+}
+
+
+.linha_divisora_1 {
+    width: 1700px;
+    border: solid #5A4D39 2px;
+    margin: auto;
+}
+
+
+.hero_titulo {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.hero_titulo h1 {
+    font-size: 50px;
+    font-family: Kreon;
+    text-align: center;
+    color: #301D12;
+}
+
+
+.hero_image {
+    display: flex;
+    width: 1200px;
+    height: auto;
+    margin: auto;
+}
+
+
+.hero_image img {
+    width: 100%;
+}
+
+
+.hero_content {
+    padding: 30px;
+    width: 1400px;
+    height: 180px;
+    margin: auto;
+}
+
+
+.hero_content p {
+    color: #301D12;
+    text-align: center;
+    font-family: Kreon;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+
+.linha_divisora_2 {
+    width: 1000px;
+    border: solid #5A4D39 2px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin: auto;
+}
+
+
+footer {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;     /* Centraliza verticalmente */
+    height: 50px;
+    background-color: #5A4D39;
+    margin-top: 400px; /* Garante que o footer fique no final da página */
+}
+
+.footer {
+    color: #FDF9DE;
+    font-size: 20px;
+}
