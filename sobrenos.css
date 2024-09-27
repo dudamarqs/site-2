@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Kablammo&family=Kreon:wght@300..700&display=swap');
 
+
 /*reset básico*/
 * {
     margin: 0;
@@ -75,7 +76,7 @@ nav ul li a {
 
 .linha_divisora_1 {
     width: 1700px;
-    border: solid #5A4D39 2px;
+    border: solid #B97028 2px;
     margin: auto;
 }
 
@@ -94,21 +95,57 @@ nav ul li a {
 }
 
 
-.hero_image {
-    display: flex;
-    width: 1200px;
-    height: auto;
-    margin: auto;
+.hero_image h1 {
+    font-size: 45px;
+    font-family: Kreon;
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: #301D12;
 }
 
 
-.hero_image img {
-    width: 100%;
+.geral_content {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    margin-bottom: 20px;
+}
+
+
+.geral_content h1 {
+    font-size: 35px;
+    text-align: center;
+    font-family: Kreon;
+    font-size: 35.609px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: #5A4D39;
+}
+
+
+.redes_sociais {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.redes_sociais img {
+    width: 40px;
+}
+
+
+.foto_duda {
+    margin-left: 60px;
 }
 
 
 .hero_content {
-    padding: 30px;
     width: 1400px;
     height: 180px;
     margin: auto;
@@ -121,16 +158,17 @@ nav ul li a {
     font-family: Kreon;
     font-size: 35px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 400;
+    margin-top: 30px;
+    text-align: justify;
 }
 
 
 .linha_divisora_2 {
-    width: 1000px;
-    border: solid #5A4D39 2px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    width: 1200px;
+    border: solid #B97028 2px;
     margin: auto;
+    margin-bottom: 50px;
 }
 
 
@@ -142,6 +180,7 @@ footer {
     background-color: #5A4D39;
     margin-top: 400px; /* Garante que o footer fique no final da página */
 }
+
 
 .footer {
     color: #FDF9DE;
