@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Kablammo&family=Kreon:wght@300..700&display=swap');
+
+/* Css reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #FDF9DE;
+    letter-spacing: 1px;
+}
+p, h2 {
+    font-family: Kreon;
+}
+header{
+    background-color: #b97028;
+}
+header .nome_site{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    height: 83.338px;
+    justify-content: center;
+}
+header .nome_site h1{
+    font-family: "Kablammo", system-ui;
+    font-weight: 500;
+    font-size: 35px;
+    color: #FDF9DE;
+}
+main section nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 280px;
+    padding: 30px;
+}
+main section nav ul li a {
+    text-decoration: none;
+    color: #301D12;
+    font-family: Kreon;
+    font-size: 25.43px;
+    font-weight: 600;
+    display: inline-block; /* necessário para que height e line-height funcionem */
+    height: 20px; /* ajusta a altura dos links de navegação */
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+main section nav ul .nav_links{
+    transform: scale(1.3);
+    text-decoration: none;
+    font-weight: 700;
+}
+main section .linha_divisora_1 {
+    width: 1700px;
+    border: solid #5A4D39 2px;
+    margin: auto;
+}
+main section .titulo_conteudo{
+    font-size: 50px;
+    font-family: Kreon;
+    text-align: center;
+    color: #301D12;
+}
+main section .titulo_page{
+    font-size: 50px;
+    font-family: Kreon;
+    text-align: center;
+    color: #301D12;
+}
+main section .titulo_img{
+    display: flex;
+    justify-content: center;
+    width: 1200px;
+    height: auto;
+    margin: auto;
+}
+main section .titulo_img{/*esta dando problema*/
+    width: 100%;
+}
+main section .titulo_conteudo{
+    padding: 30px;
+    width: 1400px;
+    height: 180px;
+    margin: auto;
+}
+main section .titulo_conteudo p{
+    color: #301D12;
+    text-align: center;
+    font-family: Kreon;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+}
+.linha_divisora_2{
+    width: 1000px;
+    border: solid #5A4D39 2px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin: auto;
+}
+.introducao {
+    padding: 30px;
+    width: 1400px;
+    height: 180px;
+    margin: auto;
+}
+.introducao p {
+    color: #301D12;
+    text-align: justify;
+    font-family: Kreon;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+section .musicas{
+    color: #301D12;
+}
+section .forro{
+    display: flex;
+    margin: auto;
+    padding: 30px;
+    margin-top: 30px;
+    width: 1400px;
+    gap: 200px;
+}
+section .forro_text{
+    width: 700px;
+    text-align: justify;
+}
+section .forro_text h2{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+section .forro_text p{
+    font-size: 29px;
+}
+section .forro img{
+    width: 500px;
+    height: auto;
+}
+section .axe{
+    display: flex;
+    margin: auto;
+    padding: 30px;
+    margin-top: 30px;
+    width: 1400px;
+    gap: 200px;
+}
+section .axe_text{
+    width: 700px;
+    text-align: justify;
+}
+section .axe_text h2{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+section .axe_text p{
+    font-size: 29px;
+}
+section .axe img{
+    width: 500px;
+    height: auto;
+}
+section .festa_junina{
+    display: flex;
+    margin: auto;
+    padding: 30px;
+    margin-top: 30px;
+    margin-bottom: 80px;
+    width: 1400px;
+    gap: 200px;
+}
+section .festa_junina_text{
+    width: 700px;
+    text-align: justify;
+}
+section .festa_junina_text h2{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+section .festa_junina_text p{
+    font-size: 29px;
+}
+section .festa_junina img{
+    width: 500px;
+    height: auto;
+}
+
+
+footer {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center;     /* Centraliza verticalmente */
+    height: 50px;
+    background-color: #5A4D39;
+    margin-top: 400px;
+}
+
+
+footer .roda-pe {
+    color: #FDF9DE;
+    font-size: 20px;
+}
