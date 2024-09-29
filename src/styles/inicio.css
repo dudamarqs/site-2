@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Kablammo&family=Kreon:wght@300..700&display=swap');
 
-/reset básico/
+/*reset básico*/
 * {
     margin: 0;
     padding: 0;
@@ -244,7 +244,6 @@ nav ul li a {
 }
 
 
-/Saiba também/
 section.saiba_tambem {
     padding: 40px 4%;
     display: flex;
@@ -261,9 +260,6 @@ section.saiba_tambem {
 }
 
 
-
-
-/Rodapé do site/
 footer {
     display: flex;
     justify-content: center; /* Centraliza horizontalmente */
